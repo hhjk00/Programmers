@@ -1,3 +1,3 @@
 function solution(myString) {
-    return myString.split('x').filter(v => v).sort()
+    return myString.split('x').sort().filter(v => v)
 }
